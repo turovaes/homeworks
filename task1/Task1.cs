@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите первое число");
+﻿// Задача 1
+
+Console.WriteLine("Введите первое число");
 
 if (!int.TryParse(Console.ReadLine(), out int number1))
 {
@@ -15,16 +17,10 @@ if (!int.TryParse(Console.ReadLine(), out int number2))
 
 if (number1 > number2)
 {
-    Console.WriteLine ("Большее число = " + number1 + ", меньшее число = " + number2 );
+    Console.WriteLine("Большее число = " + number1 + ", меньшее число = " + number2);
 }
-else 
+else
 {
-    Console.WriteLine ("Большее число = " + number2 + ", меньшее число = " + number1);
+    Console.WriteLine("Большее число = " + number2 + ", меньшее число = " + number1);
 }
-
-
- 
-
-
-
 
