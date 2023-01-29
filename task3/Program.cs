@@ -6,11 +6,11 @@ if (int.TryParse(Console.ReadLine(), out int number))
 
     if (ost == 0)
     {
-        Console.WriteLine("Да");
+        Console.WriteLine("Число делится на 2 без остатка");
     }
     else
     {
-        Console.WriteLine("Нет");
+        Console.WriteLine("Число не делится на 2 без остатка");
     }
 }
 else Console.WriteLine("Вы ввели нецелое число");
