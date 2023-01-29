@@ -1,16 +1,18 @@
-﻿Console.WriteLine ("Введите число ");
+﻿Console.WriteLine("Введите число ");
 
 if (int.TryParse(Console.ReadLine(), out int number))
 {
-    int mod = number % 2;
-}
-else Console.WriteLine("Вы ввели нецелое число")
+    int ost = number % 2;
 
-if(mod == 0)
-{
-    Console.WriteLine("Да");
+    if (ost == 0)
+    {
+        Console.WriteLine("Да");
+    }
+    else
+    {
+        Console.WriteLine("Нет");
+    }
 }
-else
-{
-    Console.WriteLine("Нет");
-}
+else Console.WriteLine("Вы ввели нецелое число");
+
+
